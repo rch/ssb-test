@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/target/flink-examples-streaming-2.0-SNAPSHOT-WindowJoin.jar" tofile="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/target/WindowJoin.jar"/>
+  <copy file="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/target/flink-examples-streaming-2.0-SNAPSHOT-WordCount.jar" tofile="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/target/WordCount.jar"/>
+  <copy file="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/target/flink-examples-streaming-2.0-SNAPSHOT-SocketWindowWordCount.jar" tofile="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/target/SocketWindowWordCount.jar"/>
+</target>
+</project>

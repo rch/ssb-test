@@ -1,0 +1,4122 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:0012517a-27b8-4e6d-a155-a1611a1e8d4a",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-07-26T21:20:42Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.7",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "436dfb24c63a322708e4a5143d8543af"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "3ef2e8728dc9eff2f129c34057e46e9d2b10629a"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "c185b79bf0f9264f43bc8c222c44db67bea275bb727e3327cf9aea6bf45292c9"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "41488733e31e6c5315327dcc86187c2b9a6b96cd08f7e2157ce130688afde29c313fc6a73edb8a76333a930c78874aa2eac874448920030c0f7af0ac05e65ced"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "f9462f86240fd9fc0942f34981e6d2371f252aa1a4e5e8c3c14e7f0f1a4e4de69ef972e51cf09a749afb6d97c13e67ed"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "c755af6239348bc7dd1e1e6b5f14f7cf7e1560d689b252d9610cd865fa4b419d0b8e26260731dfc5da2176b6e706b414"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "309aac91005470c9c834354ab918759e2ae7ec52fc1676002621a5bbdf3b7827"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "c634570dcf8302e61005e5fa91a9a0d9b81542f731967b3c9f6d3ef89e3b945bd36d7ab69e2ebad8124b9c05da504361c8b36a8ce528d844409eeb7df4eea6ce"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-examples-streaming",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-examples-streaming@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-examples/flink-examples-streaming"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-examples/flink-examples-streaming"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-examples-streaming@2.0-SNAPSHOT?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-streaming-java",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "efd338bbae11ef07f8288d6bca6e7157"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "20aedca65f55d0fc070377d66be1d3ed80434a88"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cc42ead297840603563b249da7d29eb2fb1ac9effd76f5260f881b2d95a3acf0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b7e68658c26a2784e0e5da8122a95514212affbe246fa5c718c4c2ee830f731d98ee8c556f802eed8ad8b4e0dd89880c7fdd1dfc47080492cc5542599b3fcce1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a710dc80313b7b984747a3bbd3fe707fe23864cd7ce9898b76fc098eb157a923459fbd2b2b96be569ac2c6d1b07ea9a1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "75cf6a7dc3ada023e1692046c6965790f2957712f954de8f0e986c0b08c7579314dc20e413bc3f82cbbc0f81243931b8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "51e6d9bf639b2437e9bb7dc3288db6d39216fc7713e4b7b7ef449ac8a9457682"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a9b6ec18be1366c8e5cfaa15d457fc5ea37523ef21a567112370b9cf7eb287815c3f21ca58b1bb27fadb2a25f58b99b3d4428192a4ead856dc07880322be7f7a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-streaming-java@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-streaming-java"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-streaming-java"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-streaming-java@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-file-sink-common",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2e136e3f8b7ee43ef4197184ee45032d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "244bde859c48f04c27dcb38f39ad7432ff602e89"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a3eb4072b65d9e9d1cb2f8ce9d11b0ba06bf196fe1ce93f2b654caa257ad8811"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ab41e8734d0a8e505856fa8e6a2d5060edecd85a40308547b9929c82197c3dd2b7a726ffdf6639443844a33a52676c580fb0c596951a227191640455e90a6c3c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8388a4b6a8f009593e46376aaf938578c5e7b86d0ec087c9c4200f8c5a51fb0afe9990071a91effce01e1db8069bebf4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e1c6561fff945b51b73a7b03b4243a2c2b24a136d156c30c000f5349d67e1e45b36ac0c873d65a6c1b15166d7f3a2679"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "513ed30f4d16bee7cda81bf890090c78776f763c1216b366ce11704a70738879"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bc88e244cc52340e0b739e274378a78a931c0a69b5ef2571884569174dcaa703ad5d80523dae315ec84cc53209735fc04664898640f1785f646a46081288180e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-file-sink-common@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-connectors/flink-file-sink-common"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-connectors/flink-file-sink-common"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-file-sink-common@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-runtime",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9bcfe0c7c1ec07e5383ec64e9e3917c6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9c5813cb0afb28edb123f1bd44c13a30dddfd4e1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "11c9a0af5ad9d7d2eb52da8f09c54c8aec604252a178120ff4616071f25bb018"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c8906829cfb306af125aa4de566ad48e81b07f05400cf8d7bfb2c0f6663c68ec1da896d1ee38881689f62c1145d23fd2a396199ae3ed9d1a2f7eafa68fec496a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f4820d92e24ff980566224c0809d247452d4e66e1c3bfd7c492daa258d45054f8c9ba96c90f824d3702a2e92e42340c1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3f035ba1d882718f76ef28e4fbae628ac7d2751a50c015ca274121c33fe3703e3f01c456192b6be0a8070aa54ea63373"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2d9b29b3ef6540410fbf1c11f4294fed8692f00a5cb6c7c9e0514479a6e1621a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "23400e1a5e2f1ece0595834706286689ab022c6faf0e0875e2d473a2fe79b431a19b78647dfca9b862ea668f9c42119b3b636ab81635ef40cdb90072d4094b2a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-runtime@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-runtime"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-runtime"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-runtime@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-rpc-core",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0ab5f09dab9685418f97d40aed43b32b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "682d6ebcf94aa63d77c4c24a02508a5646d10e39"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "05bf0ff68416f0426daab8dae8c3bbe300849b53c3d5f6466ee5e8ef86bb7ca2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a03baea6904c4835a03018871a84a6e4ab19e3f05013407db4bee74dfdd11d17e1ed5772d837fd9e01a836377b4b2336fd60ffd6b894d6beca227daec64d052d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "03185a41a818cdae9c341b797d3489943231ff2daaea3bcb505a672b6725c8dee19d5e71bd054e421c6e0238a60bfadb"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5b689ff60f59c3c6c81566476d1739c10e2a2253ba9d5d15c4c02d59f473e0f01344ec527a2c056ff316c607e53d281a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c70cb671be4e1f36b949d05bd65b58ba1f2d47f3667fa379587842be1412cf18"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "748fc14b50b1c7a3c3e21254402952dd7a52bc282a0820b10bd20a89a03b5683fa88d8d039ffcc8921e976ef985c770c72a933fab9465b405ca281ff5f9725b2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-rpc-core@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-rpc/flink-rpc-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-rpc/flink-rpc-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-rpc-core@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-rpc-akka-loader",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "This module contains the mechanism for loading flink-rpc-akka through a separate classloader.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d49b6ea1a2ef19c75eb316f0e7190a1b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d2f9ad43145311bcca2d8b7fcc1b8e0b5f7a944c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ced57ae6851132d60550948d734f49b60cb320453761ca0a2ad93218af7e4ac6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8a0fa0edde0023b2559eddabf92ba0deef8f595d327d0119129519b43a46b39aa417e7969e34a90a361039cdbada70125ac3168c4d492126bbc00230268416fe"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "981c14c93e498b91fea78859cb1213c76f799de99e16d609533b1772b1ed99038fc5d8e669d1edc0e33cc3e4608789b7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "da615f5d6c65e411116f97a56309276e92f8ff8f4df92f43667bc30d854ab127c34f865067c09d8bfe744fc6f44b6c63"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c1883f1492b670a972340772a3863f9b8aa2f7fd73fc8cc0dfb3f39eecc0b4b5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c871f0b6f9b43d0bd43964f05e2b10a071c138e65ad4bb1ae8d7c85e630a21a1e7f7f173333d7d0f75c60911b0627e5eba692d6c213799bcbd9fac4b66bb251f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-rpc-akka-loader@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-rpc/flink-rpc-akka-loader"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-rpc/flink-rpc-akka-loader"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-rpc-akka-loader@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-queryable-state-client-java",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0b164712ccf482f71d76218d4b3f11af"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cb3a6a843afc5756f0d4044b97247149d8534d29"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "16173682d2fc93f0e502753fc847d499b96a17c158904725e6205a07057c18fd"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ec8a799c4078ee1d2454049d1cb347ded16de70034a41ec921d49e3500a07c5d48885c368c50fe8b1758327f41681bd83821b831ffbc74c77ba1b7dc8487c98d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "453e30e016efffe78d78fd258228305dee75684aa87b90ef254374dd358b1c898a80e8b0c4661eace14038662e3bf036"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c43f720cfc8e46b55503b6b81c1d25c8c3b4c04b7a5238b4e8f2a28e10c95cea4573f361667c20b0c802abd5fbbe41ff"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "12898142e8fd02ede0d3c6f6741778d2e565d8037c214890497ef6d6eca4d8bd"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d30ebdaff3c06866f06af83866aa803901eee739781f0fb9e4076ff8c45513032aafa33fa40a83f489520791e4b1319ff2580da25a53ca85509c937cf3ee28cb"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-queryable-state-client-java@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-queryable-state/flink-queryable-state-client-java"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-queryable-state/flink-queryable-state-client-java"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-queryable-state-client-java@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-hadoop-fs",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "84f69ad823a8ca9a31f5b20dace7f4e8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "790345062ed12248132a9437f6265c371ab3f811"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "20530f64812028c44208f749be57e7a986d3d8312b8259af2b6b78145024de4c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8cf895d3cb490eb43348b964099602cee403bf0cb0daea2ca001ed4a3cc19ba698a78b841ee65bc6593aafd7d582de6417c0408f3ca1f7efa09fa4027ad10361"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "39bb9a80d95a5b4fc2555f2d98486ea3ca2c6abb22cf326cf5bd2ca49b5c4e8a7db3b37342496719ef9a83858958050f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fbecb957abbe83089ee86d78c69e901c09f22be33b3bfb602a1c933ace930036861c9c0bc32c1da3efc82ac4c290afee"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d8e6512ad2dbc96afdde07704162d0aae21d35662fdf4a3132f8f57ad6af3639"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ed78e7df500340ef7843f2da4250f1048a8686700a8bb60a3c7c696541cff08754e0cf5f1eba82bf8eb792971c4a8cc3fe22eb612455f74154f64b60284e1e5b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-hadoop-fs@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-filesystems/flink-hadoop-fs"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-filesystems/flink-hadoop-fs"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-hadoop-fs@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-io",
+      "name" : "commons-io",
+      "version" : "2.15.1",
+      "description" : "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "84351f7991a0e6722f00e96a4ccc376f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f11560da189ab563a5c8e351941415430e9304ea"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a58af12ee1b68cfd2ebb0c27caef164f084381a00ec81a48cc275fd7ea54e154"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e9adaeed2d715ac0ae44de056ba165a743a92acbeb9871b535f7e58e0b3bc4fba276495b50429be195098a559f3adb7294048479754a0ee4d397da2efda5f81c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "028c72b59373d3894da22f9eb2c731aabd00f670993973f71a354d722670c12ca659686b83bbf8db32d060ca180f50b2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "73cd585ab3736b4be50ec0f10dfe5ebfc3390eea8d56f07f29055f1fddb2dff8084310eaa6fb9f97ea639ed1abd7bc33"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "daf39bc99f1a3dc0075714a4a342a58d69a4cd62c25bc39a581f657ca72b1044"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b003f8971d1536ea0fc4320dbfe17d7259d49e59314739f9fc83134e511facbff048b0ef4f86a9d0893781ca09c95cebc3b181a6c89a2d41e851870b96e76839"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-io/commons-io@2.15.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-io/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/commons-parent/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/IO"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-io/commons-io@2.15.1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-shaded-netty",
+      "version" : "4.1.100.Final-19.0",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "53b5a094b779da693fcb848ab6cc1544"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c2eb08778d6532f0bd64c4c3c3483b221543f958"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "dcd521f7a40e462636df3655e9a0d3069661432dd17b8f6bfaaee49ce60cef4d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d7f81de1b7e3f3acbb2e0d48bc27565054a5f84a302fddad26841efb18f34088d7e456d900cae14ce4a8a8033d67841fcf59837b1be1ab7744b2299d7510ca1a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "28af9de0d977b5a348fcecb53361c1d03aa3530bcce96d7ee3b9da5e6d19d3768c983c80da9269ec0020a699fec24d6f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6295ef198c6e0e5e04c8888ae1070699e42980626595c8e59d0b27a8e3dba07f38b570ffecc89434c002dc26b1032a2e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ec93452f36e22656aaa3aa7f65b07ee3cc480fab49ee03d84a42ae424381f8ca"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2cf24dc1b8f03b8dbaa6cfa3bdbee74787623baf2c82e80d5104ccc9b994d1c014682a1b87df5419d7abfbe32f4b25421d0b65426c7fc7341304ded6b40c273c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-shaded-netty@4.1.100.Final-19.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://flink.apache.org/flink-shaded-netty"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink-shaded/flink-shaded-netty"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-shaded-netty@4.1.100.Final-19.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-shaded-zookeeper-3",
+      "version" : "3.7.2-19.0",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "218519fb5efe944fd64beb91c9960da1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5881bef6480d3bc34fb25c3bf58e8e71426dbbd3"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c9382406db678db3f8a9b1312ec755047e7e781c1aec1630e158237aa2b78c6d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0d4743147e48ed825ccc3a8443634acb329087e57188bfa412da50aaa08471561513d92c1180dcbd4e5a0d498311d20159aeaf836c7188842701346951dd0747"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4f971c79166da6acc314931ec9c1c67d5044a5686d0669a61cbfc871bdbd374756f48b045d916eb65e7ac4b3a7d4d9ac"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5f06211a98a49bb442674f610b272897b35bc2fd81c8ed83cfca8594ebee4b4ef7cc884a03bac8df86452c7cfb4d67d3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "585470dd5806c5a691b815393800428717f74dcd66d77aa5fea05a2695c58dd7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5226a66eff78095138bd093269637e267f0a298fd4c77b79eb2531250c20378e8a1707e1927072ad0939a01a0725459a5ac9572e40e053e076c06a392d6d8fb1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-shaded-zookeeper-3@3.7.2-19.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://flink.apache.org/flink-shaded-zookeeper-parent/flink-shaded-zookeeper-3"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink-shaded/flink-shaded-zookeeper-parent/flink-shaded-zookeeper-3"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-shaded-zookeeper-3@3.7.2-19.0?type=jar"
+    },
+    {
+      "publisher" : "Shigeru Chiba, www.javassist.org",
+      "group" : "org.javassist",
+      "name" : "javassist",
+      "version" : "3.24.0-GA",
+      "description" : "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "23fd22d0d089ddfac567a39ce0cb1a91"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d7466fc2e3af7c023e95c510f06448ad29b225b3"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "aba81efa678b621203fb89aeff81d6f126f7a9dd709401e5609c42976684ae23"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e57dad74a3edef837ece841d06e4a7c96ffecab8fbcba56fe5f7eccd662f0c0d757880a6073793a8c75ad7a0a1d146346b75cdbfe4fd8a271048a54446e5d1a2"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4867afdb7522b3dbfa10a51264ac6c15a2a8083d16c8dbef318275d24687768f35130b1c17d8407ca8ecf855abd83dff"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a52be891987d4fc7d319e6417e0cd9a28f189d8623b803d72b5429e118da73b9937899231825e793d37b434d7522d283"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0cf8db7d2a5f7e1a70827538cb4b0b446fcc239f05ca55d9bf8f2a50f1e08af3"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ed9675f9f070203801eb762092ac99636d376b7ef563f99508283006a65a0d2dfce38e1ba7ff2ccfebcede0376ba0724b76b459ca112477234aed8208807f785"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MPL-1.1"
+          }
+        },
+        {
+          "license" : {
+            "id" : "LGPL-2.1-only"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.javassist.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://jira.jboss.org/jira/browse/JASSIST/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:jboss-javassist/javassist.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar"
+    },
+    {
+      "publisher" : "xerial.org",
+      "group" : "org.xerial.snappy",
+      "name" : "snappy-java",
+      "version" : "1.1.10.4",
+      "description" : "snappy-java: A fast compression/decompression library",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d1d3b91e925c46a1a0f68b87298bafe8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "50d0390056017158bdc75c063efd5c2a898d5f0c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "55b30c94e5c4cc2d4b6976916098d0678a8a6cc7427fa8c875621bd94e731ac8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9e52bad4eaa0d0a2e0083cdd3433d84c4bb44c4d3f0314a48c3d6eacbb64d0f4fb2d71197944115618a598eb4a4941c13af2a9ec676b003fb3462ddac58bbe41"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9539e8eb2dea244f07a7216db38970e3f336b5dc9d132cbe54e201c818dba3e02a1fc467b4529a18eca7127f86d742dd"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d5d5ef5d8b050f200ae29855a4b6f5e278215d0a97a69d3653dc1aa716f9847b3c305312a3c994d46721615ba02fc7c8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "bbbb3ff43a24094bf2c77dd8c8f94b06d62d158da0d2c3399de3a2993df9986e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "de2aa7e7fada466f24ccda07123e2877446733dd48e4b914d25b0d296f677e17a24f182a0e9216e77b261143b774ccaadcfd2854dde1bf36cb2c6db6cdf78b3c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/xerial/snappy-java"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/xerial/snappy-java"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.4?type=jar"
+    },
+    {
+      "group" : "tools.profiler",
+      "name" : "async-profiler",
+      "version" : "2.9",
+      "description" : "Low overhead sampling profiler for Java",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4df6477a255b88e99f2ed4daa3c713cc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4ed20e2a4640ee672e7cf23b1512dbdeb9a4b7e6"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6c4e993c28cf2882964cac82a0f96e81a325840043884526565017b2f62c5ba4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "60ba593a0cf529397e73e38ef71bc2e5def44f1111a60f40a724ac3472ef7afe92e02a61b0ad18c373122cd92216f49268d335e1150dc3a99ff2431c598aeb5c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "65107ddcd2a06b69ac4cdb9bd93452045c4e08b843826666a890816abe0486966599cf6a4b07ff87c5d95e86551bb115"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4989b467a4791464d50c51782ccc60547bfc8105aebc0764656c67405bbd7d023a9d405a1fd864f86dbd186af8624928"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "225998977421a87839be6c09f49f9ebd972b063a65f53d374e61fc3d68416ca4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "723c0651f61ae6a119624b11bc9d3959ae44de0bcef51f0a341c5d7ebdc6a0e677f3c43399db9a4a657334f46a1092ee55d45f92344b7e31e6e26669ffe41823"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/tools.profiler/async-profiler@2.9?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://profiler.tools"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jvm-profiling-tools/async-profiler"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/tools.profiler/async-profiler@2.9?type=jar"
+    },
+    {
+      "group" : "org.lz4",
+      "name" : "lz4-java",
+      "version" : "1.8.0",
+      "description" : "Java ports and bindings of the LZ4 compression algorithm and the xxHash hashing algorithm",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "936a927700aa8fc3b75d21d7571171f6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4b986a99445e49ea5fbf5d149c4b63f6ed6c6780"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d74a3334fb35195009b338a951f918203d6bbca3d1d359033dc33edd1cadc9ef"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "98d59086a6021ca571d9c1d64b715e43044c730e1ac563f514c40cf44302615d30378b6d5cc69990446522de6260dc8e7b303e3990a3139dc326d058dfb6dbd9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8e3f2acdbb41a00c4d9cc5f328e63fb626ac7c6c84e1bf9502e2fcc76a591b2b819b2d27b29925ff986b95c297b30e2c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ec0d6a00760d0a4ecba13a41785d6ae57a64552b1687eaa3e292b3054bb1348e49ab8a938197ff126f9218c6cb96ee1c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7be684c102891105f66d378b61ea1297a392c1618b5aebf7e0b281f55217c206"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0b2294570ea2bfbb50ced21dfa4bad956467ca447e9ab2dd602a3478371bcd0e9f13d2dff74d06827a28882409612cdde00bd91267be05bd3510c68268bf3166"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.lz4/lz4-java@1.8.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/lz4/lz4-java"
+        },
+        {
+          "type" : "vcs",
+          "url" : "git://github.com/lz4/lz4-java.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.lz4/lz4-java@1.8.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-java",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "193ce3a621014821e95b16e79c8bd495"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "dcf840f9c5e034363f24ca73c1fbaa6ab5c505c5"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f84b06e63df649985d10a53f0ab76864fd3518c71fd09110995884de5308e522"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5ccb62d907d52c43447cce9de7f30f653057c30028a3123f16dd215f1253145a66977ea75d91d3d5d74c729436c5db0955437728d9530c7d48f724f16b2d1b44"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2eef2b4634e38c0d2fd3ee61e9bc5b4556f42ea04e40a42d407d596a25915b4dfb93f647c562d99e7b3280332737f817"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fa778daac17e6ca03eda692030a0952373d2495b303071a7fa712a4e63588bc765b4640e1a256dbfaef26583bd8dfca3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8127cd14d2027dc24e9e83102654660bd2fd26141fae27a85d7419732b0e1f3a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e4a29cffd822ae2b44b87307fb48d260385255caaaeaeae8de86dac02e72eeb1e814ebc645a0688d8cfb7dce14e9cbf5b2133b6091877dfdf506aa2e8cd81dd9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-java@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-java"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-java"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-java@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "com.twitter",
+      "group" : "com.twitter",
+      "name" : "chill-java",
+      "version" : "0.7.6",
+      "description" : "chill-java",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "886eb8ef6db3880433f4a8e10ef37300"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a74b8d019d6941d82ff86d1612e382f4a0ae8259"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f7c41a2257be11e6c9bca97095c8f4b0299626941a3508469f90622eb8f8368e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "dc9973909b87cfb85ee45c90662612dd2bc137b7510172221eb47020f76b23eb3ea76c6b4fba4cee5d81e910f87aba71359136d33ae0f6424e3ce7123bf77dbf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "41e7faed7c2c22987868fba7cd6dac0d59d174d82d841ba4e5aa8675cc9265bf9d9df021553a781cfa24c4c9c7a35c5c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "32751d6ecd77676ffa11a109dead8c8d19a6d1d78576b19ac5a8323d9446ba51fba87e0d60820dd2bac69fb705aa2061"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6bdf2ed042c5b7f4f4d11bb52e448ce740e18563364f66730ca2b6b4eadf0401"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0ab14bee65d85803d5080f3b0ad86183daafb61e3ca3a610e199bc04a11421b45436e405dc3c227b5d80a64178ca82739eccb5ad8ee157efa925d484d9daae28"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.twitter/chill-java@0.7.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/twitter/chill"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.twitter/chill-java@0.7.6?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-shaded-guava",
+      "version" : "32.1.3-jre-19.0",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "eefe4cdbc39deed31d53410ad9ad97c5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7c197ead6922cd83ff550d372d07592e3f51b586"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d325a265bae4b256287c5be3821200b67b7075d18d0eed05bb0a0275ca101029"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "28365b9f49ff013b82e809863c852f4728768fd08a8f7be7fcd734afb657ac69ecb38d9712505f101ac91a2f6575abb29c7190c13e99cd3ae513c54d69476d07"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "af00f6b96c91d347c1b572da3784ddab6b84138fc99b3c0933f1e0a36daeb34ddf50b4d26b16fb39dcd1c42102348c9c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5d1914c122016dfa826a31dbe7413955c034957052a41553f05404f3fd17ab7ed5740f36879004c7db9c727d2ab2570d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5d749b1e21f790cb440348e9f221e2ad397e237900b38a83cadd9372f8ef2543"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5aeedc6fc2289be12958afb5ebb441f432141cfe08b1967110d0789c5c458aaf4e5e4e28e915d0529be897362ac8f4ca5c3267b31da8c827fe40cd01a5690529"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://flink.apache.org/flink-shaded-guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink-shaded/flink-shaded-guava"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-math3",
+      "version" : "3.6.1",
+      "description" : "The Apache Commons Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5b730d97e4e6368069de1983937c508e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1e56d7b058d28b65abd256b8458e3885b674c1d588fa43cd7d1cbb9c7ef2b308"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8bc2438b3b4d9a6be4a47a58410b2d4d0e56e05787ab24badab8cbc9075d61857e8d2f0bffedad33f18f8a356541d00f80a8597b5dedb995be8480d693d03226"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "95d1186d9ca06a3ea2e6437ddec3a55698e2493d3e72f6f554746b74fa929892bd71a2ab501a4e7b1ce56b7cd64e7ab4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f85bb3e46a00fc4940a3be1331301302b0eb728e2d1fe2c1842d4761e5a0bc7a420c0c705ae60250ca1c7b03d3694b9e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "919c15ae4b1aef2a58aa6ea4b700bc5562e78dbc382f3393169425ca91ad368c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "dbe54d586c898cdbd7df6c31c131ca3525db17fcea5c7f5da8cbfe617e2afc667289290c76771ec5c9567a56fb2b177b0a31d67abcc656410c90287da4d88999"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-math3@3.6.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-math/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/MATH"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://git-wip-us.apache.org/repos/asf?p=commons-math.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-math3@3.6.1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-clients",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1006557dc6e135ea23dd9a30a660d327"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f34d5e9a7658f2439952ff030ceae9ae03b50a31"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9b0fc672cc955dee3bd949fd6e0f8fa40df6d22d3bc16333d33de0ca153409de"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d6d93f018906f0d381f82a3d7c638aabcde0e40cfe45b0d0bd35733752871a396403c5876ddf2a9aa6c62b29adb858038dc20e36423db52f0f5dc10f7d4f8711"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9267e59e00010c203bfb4cb1ddace3c9bbf6d59b785acf115d5c22ebfc9e89a92b6077b1d3b45f682c2968bf8e36fdb3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "83bf808da6d009e74868d69d51008f6cf6e8ee8a41ea1d56e34a1c31747092de71df302024941341d120488c0a6c782d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "878ee7929326ecc990a0e23f19f1069d67827411644c57f1cdceb0fbd0e03de0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d8516b6090297028ca5f730aeb7612ca5f8f84b2aefeca7f113d1868943703f505a87b4a9c8058f5a4eb6e603332ee25abeb4ea51208395da2783c675e479352"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-clients@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-clients"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-clients"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-clients@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-optimizer",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "02526f29dd47a8fd7cd241fab52871a0"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6da7b7db5382326ea01ff6d3598936d773cd1e19"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "103b7dbabf6882657e686db93700e409ccf983c6b88faf53d6edb96194b03c29"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "12241f4a7411f6cb847457749824255a08001c53e94e477e01fa81b5a78fb5d753c1f65b347983eafb1b400fb083ba8f8f4190717976b1eda3e80a694abc10ef"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4ec5d89cb8b13f25cfafd1457f3f4dbbd2aa1e063ff0106a7e69a23c884054722bf22fd0c1a3b7aab39b28c445bd3aae"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2895de8dd0a4f36cab5233c63a6eb9c9a8c198b7d2f3ea3133f2d53698a3b3c7839fb4b0aff6317df5dc40ea508c08e6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b80eb2bbdd77030ff5dc8fd5d8ba7f1ad8aca6b0bca1931b806b4161f4300969"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "701b224c92da81aea5d35bcf88c12b9b7b801dabccae3947b083f9b283a0aaa82e7f79705e2b10d3e31ee9ac5cd9ce34dd6c9ebcf6f9443cc4b34b400d42b81a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-optimizer@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-optimizer"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-optimizer"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-optimizer@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-cli",
+      "name" : "commons-cli",
+      "version" : "1.5.0",
+      "description" : "Apache Commons CLI provides a simple API for presenting, processing and validating a Command Line Interface.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6c3b2052160144196118b1f019504388"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "dc98be5d5390230684a092589d70ea76a147925c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "bc8bb01fc0fad250385706e20f927ddcff6173f6339b387dc879237752567ac6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b78ac2b418e9e9e7d0bc866664577199d320408a6f03151b3789bac365c986dd526df853599e633d7e50fe136cbf3eb9ce50c9cfa0ad38c3cc8d8ee416f61c40"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a7a2daa807c4007c506b5100f0a9b526c0052c4e1f6b699904ef9d2aba8195b6003dc4d47ca133b15e2f3e830bdbe6c4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "44ca97514a2e34b5bf3de9b5d45c8e871f6eee517db7f3c4b4476eb3e8dfe9a9d8760f3181114708288c373727b42475"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a0a47001d3a293f129ffc21f17f575a9d23ce5b88b440e651e4cd01edd0cc421"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "483dae23d6827a105d17847c8c813527f19042b65c4d09635dfc4bfd25990fe3ba2a997540460fd5b1d72ca3add9a38ca8b32004680764db972a9bb62f7f68d8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-cli/commons-cli@1.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-cli/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/CLI"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-cli.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-cli/commons-cli@1.5.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-datastream",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ae7a1fec5873307b1aab6654192ff750"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "109778356c8c57d98a310a7daac3096bb6fbaf67"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "626c64de1399135c957b62da3fa46ca5c0593f2788f07e0bc0c64676a12f2743"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "86d121914a68a970aa52d89a95916f15d5c19f56dd65bce405ea5af1c3bdcbdf15443ee1a39ea74c3235b1231239d23c033c7801678fd7babe308869aefcfd41"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fa1a800aa610b02bd5f7e373546e7db573afc330c87707879791ef07004af4d76954bf5ecea780f492979fd6e408b59e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "1718ee601214157d803e64bdaa14f8292f0c1d24ee68f566016df30f8c1205d22b78fd31e070c1a37ae8294dcbfbf0f7"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e4d6e429fdcb901c4c827906b41f73485f18e789c4dfdf62fc8b0092accdd7ee"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ac70b754c3f8027217e7ae42b7ffec382904234c154a6d70382c43decc1fc8064ab4b32d7be451672237e9a6dba846c5b023da3857d2ad85030cf5fd97552f51"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-datastream@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-datastream"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-datastream"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-datastream@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-datastream-api",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e8ad0451b47e2b54fb021d59c9def2c5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e781c25b3c45126dc722e58f611e13710be21b25"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "79bee68f55dd37ae1b28da14d6f44b7dc9af34ecabc3ec09bb56eb3822c82c3d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "973770b4c386c4057364b8f091a2bcda3b35bc187d1e1c413835cd044f4eca7b110ec9c78b3ab36fd222a0dceee1f11d9fffadb3d40a8c9599cf9a6e160d7802"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fbba570bebdc1ce8fbf31320620980b144a812f0e1d6ef74fa5cd0d09bdf26c5e27940c0527bb5b1cb90358548935f6a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9dd7e246e81abc140f3c06c2805dbf440ad844ba91850cfbc7db17b596a2e7a985ef090a01eed1e946881d1dbd62fdbc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f8826bfadaa90c26d4de67bf5e187b9faab0eb2290401640ff33b4ec74a3f0b9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "957ad40a2074e756b31aa64b8e98e5e462f81d416e2b3e3d82b71ba7403bfb682dcdfbcd07c32bb4514f88d543bda904ce10372d7d3cc3c68cfb15b1702a744a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-datastream-api@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-datastream-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-datastream-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-datastream-api@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-connector-files",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e9aabc590966683a82e9c1b58a389e93"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ce9ab1f93d026574545ed450f420653579ccca08"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d9ae306dbd1ca85a4b9b3624c06c62bc5196d592dd374ba9a28237a9e9b996e9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6db206fdcde46797af3ac8f41a02f1ae06dd02a946eede6d533b7d38a5756ca86f8d1d2d78e6f4c4d2a4e74a8dd46543b9fb5dc7334d041cecd41f97fe5ff2c4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "efc17bfb97db95ea0c8513d226eda3e5433a92790cffe08f5b086c2716f53952c24bb6713fc538cd0df6e81d8e49e819"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e2874f42fc73d3a229ec0716c26918318047f1af913ef5e060c8a89d2afd08b0a626b014afd1ef4cf2c5038bcf8b7cc8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "19a1e7facad5c9fef9bba25f8a395419ec48285b3f160bd38011d2cfef3abae9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6f5d61d3dcd4bb868a4d4dd2e1a5d7060fae449e18708cf0940bceaac129457c0efd73d34f30e37a59fe7770418f03b8f4a8fb4ff16320203531d285254dba67"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-connector-files@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-connectors/flink-connector-files"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-connectors/flink-connector-files"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-connector-files@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-connector-kafka",
+      "version" : "3.0.0-1.17",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6700d9dab35e48db07b95b9c9387a801"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8248457e6915ca0c657aa97212e92675cfa3d584"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4dfd1f7208dadd43e43866636edbae25ad2534b54904824c05392cd7ec14a854"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ef40c3c650c4f8d93f77536ac77e14b37a9dd89dcd3c56b96ad9804d35bccc4f3d0eb54b2015526b16a1c04c2da0cc7868d0da5421987570f1e9662d8e51b04a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f8f6d0f83fcf10e1f201182515bbed5e2f097bce7a80173e3af77265fd349078b4114eba86daa783abb2c09e65ad0998"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "1f6536fd1eddbc06cf4a11e569e2ed603e6b9069e856b58072c3bd7bf0fe28db4ab2b68df6934fefd8fe1ecb21fcd918"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f4babe460cd69ac245d3ea611bfb7b57540733575f5766bf190d67d46d355d11"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c2849a853d7287c5a3265dfe75051806a795c151c9174b5d6fc2644349b74e9e9d5abc5afdb41e8f697266099cb309b2d2074346221c1e649abf7e340c108bca"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-connector-kafka@3.0.0-1.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-connector-kafka-parent/flink-connector-kafka"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink-connector-kafka/flink-connector-kafka"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-connector-kafka@3.0.0-1.17?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-connector-base",
+      "version" : "1.17.0",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "37c788a48fb71f8983f0576b20ef9548"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "30d75a3f7040655a170f9f5158be9d16bde40b0f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "74357e8c229f690fc4f8489746e03436250864677081de5e76b45c260cb25ac4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6c7f5073a4becdac5256653493c41f06587f206feec252d5f4f700a3c929a5bc93f101eea365c66e18e580abc362c0c9204f4eb36a24cbf2c40facb02b683ea4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bba10094ee36e8fd9fee029c35b608151508e4c7a7dddd3010fe851af09d90811d644c5a56b731c2ef1f41784ad60ed9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f094d73ff8767267daa3a24cdacbe150e67da9baf22e4021079aa45d4b1233a50a7b8ab57f2a25e27d5ac2117a0debac"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b9aa6ad62fa4f2f5e7d2c2874b4ab9dd9f161a2c50170fbefeb33f19e79292ad"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d9339c1d50ac2826ae110b5855ad1d2b3e6d589e2a30e14e593513297d17fcd1cb8c40cecc3d67faa7fd86c1f10ed01ec278c167b2f58accfb4c6c2d395aa327"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-connector-base@1.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-connectors/flink-connector-base"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-connectors/flink-connector-base"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-connector-base@1.17.0?type=jar"
+    },
+    {
+      "group" : "org.apache.kafka",
+      "name" : "kafka-clients",
+      "version" : "3.2.3",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bbf72049c30950ebb63e001b2f21fc0c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ec1c16f07f8e5b99542a295a1034d9f71ecfef1f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8d924a5105962e0df89752dd6d1732639f009c9cdefb8148908a8607158ceb67"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "16424b53282b9126a9154fb02b772240f6262ad5b7100dc5b62e1173c9a2f431a2a0cb5168e6ed54d089c4e500ad8b808b09d99a121e718f316591a637635985"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8bf9cc6e1ef8efa938ad568135545aab6ffff277b0835232d232eae65ec154cda5850ce4dbdb55a83b94369b1fe1e70d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0486e253f270ad71071e1d4a0187e953a1dd2a41590baf57742a0cbb055bf1c368825792e9281faddc5c0ba9e9970f2c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2d860d90292fdf609d1446fcbbdd928d0f4a78fb0c8c2631eaf05c0648270cf3"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d8c70b41159d038ac2afaec1b6b7c7695953424e152550d6eaa4c48780ef1bb1fde51a334c9cef791262f73b2399d0d4b6e51249b491d445cbce98a0b09cd6c0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.kafka/kafka-clients@3.2.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://kafka.apache.org"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kafka/kafka-clients@3.2.3?type=jar"
+    },
+    {
+      "publisher" : "com.github.luben",
+      "group" : "com.github.luben",
+      "name" : "zstd-jni",
+      "version" : "1.5.2-1",
+      "description" : "JNI bindings for Zstd native library that provides fast and high compression lossless algorithm for Java and all JVM languages.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2909788860e8e3ee29d51b327a43ca24"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fad786abc1d1b81570e8d9a2fc8a1ef479bc27b6"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "93f7e4cbc907c2650f89f9f0bec94873735a58f1e4b66a54973294e4ec1878e8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "92174059714b98d4275dca1b057c857766267afe6ae2b27bfdfe50395cb90a3ec973032977a074c5ce516a3769336e6bf63d3bbde95bea165c409f1c990a651d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "cdc9284a4537fcf83166bae1c4731463d94ad9615f91200c4da6368ddbd769314e87453e9114649c694966e6c77d4883"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7fc38f70a3160e3a3e308c56e8b3bd5bcb42567f4739abdfd301f9e5ee74b1be0d1d072f6cf07270e61ac0a6ed6bf8d8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3d7fdef386e28e112621eea44bc6d6798dc68c8cf690acc2b74db5d221bc5faf"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "693b3b3d29e63690ae9c1215cc84d8e77f4de28e664eb184bf9ad4697389b8230f75f490ba653feb191b3e039eeab9415f3c56b5d2786d85e48dfd8035df4e14"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/luben/zstd-jni"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-connector-datagen",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e18007d786bb3b91cccf60b6ba3d3316"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "31935b71c8de62a610e6c13f039a5f157c9be678"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "df8273cc37742f747cf7a38028d9c7b5eed88f1d27b2cae3ca5c476451a6ffe0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f2b4f02d2be1d5b3f8b856809b48b87abe5114ef5c952d547aa56adfe9b812502455394fbd75db064ea4b3274036e3f58e8fe09bec3e135941a23f3b6206b540"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d4362bccca3320d9e62899e85fd7325717fd7f8f039f37977e454444a2ab31fd56bc111bb3a6da04a132392d0959644b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7ebf3c77224b542fac2c9ca6f67825b673e77e60269314fc700d5ccdfa7e91e03ee74688687bf20a5335c3957163c98a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8d3188159544c2468943068957bdee1f66b565acdab6a177169b4abf18ab73ff"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "022ee21a78d5ddfb0c9e10c73afd548295ca446fe24812a754fe39ee8414b1c9ae3756dc627b8e7092f244f1e25bffe28c0b0d56372132d2edd9c2576c45290a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-connector-datagen@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-connectors/flink-connector-datagen"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-connectors/flink-connector-datagen"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-connector-datagen@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-shaded-jackson",
+      "version" : "2.15.3-19.0",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3fa7a83ad139b1b89c8a81a1a67432f1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "643f98fb0f7485c00519b070b9d42ba1965f2f70"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c77feeffce308d5e5de7b40cda5e1ff6ab083bc677a6471ecf177053a13613d8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e3125ad07bbbefa0e1fdbdeb8f938b17c6ba0b2bb6d9e687a1fb4cc3567d99e4f8668fa816602dc1a5decf0f79bd8254a8c5cedbeda00b486b285d1d39a90b4f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5034bfc31e7e029f0d6306e3e40778ef9fd896dbc8d996feb5ab380ac2de5663c110c4b4453b60bdc5c7cbccd583392e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "71eb99dc309c1b4f5dacc9974283fd712d154e0341400710533a82c9beaa36867eeeaf2c8a9fdbe38adc1e03f4a34380"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "85cf25001563a0e8ef51f88369ef40c204abc559c94a1bf410a78cab87eb7422"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9735f91a654019f0f2691a2e0c1b63b005c2dd7743eb544b7dc68b48998e054d71f9bbc61d054bb20e29458e8b361a60cb8032ab22109fb5748750c42dc7f00f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-shaded-jackson@2.15.3-19.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://flink.apache.org/flink-shaded-jackson-parent/flink-shaded-jackson"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink-shaded/flink-shaded-jackson-parent/flink-shaded-jackson"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-shaded-jackson@2.15.3-19.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-statebackend-rocksdb",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "00758e3d3cb3136873d7e4cf2cbf85e9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9559f13ba91fcf79b7ea19e4803b0f07da30570e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6f4770183eec66fdb509271a2fa211ac46b8f634d018ac878024a97697ee1b1f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a599f032e4e68afe17a8f53926bcdeec41cb968dab277f0993653f39cf6bd6fc99ef4a94ec483f16790cdaf4f3f62b32d535f7558d67c44afc3ecacedb63c488"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "149a8cb3be0e8bb3b3738557b1b63cd50e42e3acedd3efb4b57ffded9ce7a1f06c0972f1735c08fdf49db918516a025e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5552f84783bec293b9a06d18beaf2a5420a705e74e0d6c6ff17799ae433e45c302f299921b9f9376ccebe9d09b53080d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1a34b6fc1ca89f974c3176edd2608b9c7cb6a8a6b50f9822adc0e67db140b48f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a861cbd58ce280bd43059a5c090bbd6d2cb218f9a82757d81adeb1aa4b703c548d7ae3fa32622b53c402f4e9ab59e26d8ef355a8be2618a9c658e7b0b8d6e71f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-statebackend-rocksdb@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-state-backends/flink-statebackend-rocksdb"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-state-backends/flink-statebackend-rocksdb"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-statebackend-rocksdb@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "Facebook",
+      "group" : "com.ververica",
+      "name" : "frocksdbjni",
+      "version" : "6.20.3-ververica-2.0",
+      "description" : "RocksDB fat jar with modifications specific for Apache Flink that contains .so files for linux32 and linux64 (glibc and musl-libc), jnilib files for Mac OSX, and a .dll for Windows x64.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b312842e5ae7b60da4fa742214600fa6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2847dfbbd8debea1bd0303a24408dba9fbe6afe8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5e6e5063b75196a17fbeaf656f088a807f83177525d9ecbec7125b9f3630b966"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5df61a2acb0ab3ddb3cefd8efd12a53e61ab7349b1addfc8ae424eb94611da2b44b58705b43fd9f9a1d6a3092df40c32001dba37eaa58c59d663c1ff4330b8f3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "06e11032b60444d685d175e19364c6f7dacacc2aa7999d1bf3c89e6bffbb627833e030dcd7978d6d50378d08d9772a81"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9363f90b3922947c09be9fb98b3e2fb8f5190b9dbc803ecf1c7816f26ad1d818127edd8761d95bc1bec58879077d6a50"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "81cd77f6fff3debf62a6f6a7d523e1c26c0c2c05938f6aaca17b555d74f878c8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "02f51f2052afca0fcd6b944dfce56fc5542ffa6a0be1db6e7a344b30b97dc59d2a6f312413e04172387b0583f11f621c4610211c0a78766c25ebe3525919c240"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.ververica/frocksdbjni@6.20.3-ververica-2.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://rocksdb.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/forum/#!forum/rocksdb"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:https://github.com/ververica/frocksdb.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.ververica/frocksdbjni@6.20.3-ververica-2.0?type=jar"
+    },
+    {
+      "group" : "org.jcuda",
+      "name" : "jcuda",
+      "version" : "10.0.0",
+      "description" : "Java bindings for CUDA",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f30d8c2d418ba86f36558f5b1fe89867"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f80a9f073a331f51b9869ee60ccabf69ea6f2c9e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fbde1c0773b90ef32edb8e42f2b973df8f0c3f441b35621e3ba0f6c6e0526338"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f090adb1041d4f447adfa0580ea7633dc2e60f24546014e96a8591c87d87f1a60179bafbb354077a042cc3c4c09e74eceee0736a86a3439eca26434ccf53424b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "773087fc53f9448b9120063218aa6cb96139253b741271a5839311df54661d475e39a9c7c6478afd523426ebd28d2559"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "74ba8a3641e5731118042c39eb6a1bb92a9035b76749070d21135a9c07e3f6119d15fe75352527dea83258386469603e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "62c0f13fb6827884a45fe4b6eef8c0de87954946a26f656ba43d65de032c1b16"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "44973ba40060ef1d9fd0764d9eeae8b729d5f45b1efaf2dac0a2678376cc4d54b37ab27c8e2a748e7a4dd80480855f91cd5040021e8363e46ac847185f9ce6d9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jcuda/jcuda@10.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.jcuda.org/jcuda"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jcuda/jcuda@10.0.0?type=jar"
+    },
+    {
+      "group" : "org.jcuda",
+      "name" : "jcublas",
+      "version" : "10.0.0",
+      "description" : "Java bindings for CUDA",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "641c2fef92c39ea60f0ea155d1d36597"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c902aa5f894a43446657994f26251e4aad484fe4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3f81d61542f7e518a49985e347514609ed3e2131c0d761ae1bcae7553a86ffb4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "342d2e391a6e795dd0614d7c9bd423a7ec252d2fe76de40d436831c6b7b3eef12723388413af23aaa3f298a8f09cba5ae236898b384f8cf630276b7382d01079"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ef532562fb4ab7dcfb325e39b30bc7756745928d7c4d1f1662eee1220a831fa041174cb3eef5d52e2fe6897fa40c99e6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5aba6357223d49c9f76acbbfeedf7c8094a810a7a1b923312b2882e8171cbc98e96169b1bc9e2ed5620a0e9c6bea74f3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0900cdc5596dc7da6faae7dd685f3f43206a6b15b1cda0bf68ee4a3eed8eb287"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "afcbca77da0269fe5c4f34c9c0e3130cf567d95aa7862dc469beffcfd8122d09f0fb1c569ba113f13097546dd9a002cde57600b48e1affc11f712ba41f27f395"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jcuda/jcublas@10.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.jcuda.org/jcublas"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jcuda/jcublas@10.0.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-core",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bcc8c403af18b94a8febf81d11aab584"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "251160462d66c06fa7000d60212c47e1da53f60d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e90c1be7c989c5806d9fcb2dccaf3e21f673c20011dd0272f308062fbdb73262"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "023b21d8662d55458510ce2ccd743811675dc94f28a537388cd3b2d828a2a841bb5226b199f3a2bd43c954d087681bc0539eecd9696dac924609bf832c4c4759"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0dcb8328405b1b836f3cbca8c1f762220ec35830a8abea2c705a2a40d05bcce6fa9acfc302283ef9ffb0f674e8116d7a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "73d781515777d8e568bf3e34be9b90afd824bda3d22091d31e12708bc60e4d21f5f3424869f59111743c9dbcd03b8748"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a19a03ef4653329f7de4e2b86b9e8f7f7368f89d48cfc791f4816c380333c2db"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "65098315d779086e3e798c7e69bddf07ff109642d6dc1798c2d213b093f0ac0917c651c8575b733672c56164d2886b142a8285b82925ed76bb0954c7164ccf67"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-core-api",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "134ddf1f221973335411977e422c4620"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "00e0ce44b6fb310e9bc633b9283b50caaf642bbd"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "778570904124b44b39f84be00a81aedc99e4c6cc9f2da8907d72aebf7a48677e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b6d5a393d3e26ee3f085f90fcf54b2ea11139c4732ec7b3dc68510815a536c3525a32f7cac7871e884825e91395c2defc8ccb3260f4214b8f93d2d4d958cf741"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "506cb66ffb6b765fe67b06e9ac1b0f99f57ba4c7be63284653e61fc8b1d679e64c1f260d2ed7727d1f5d4c0dc01b17d7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2c8bcd2c892454e1c97689b072b39f13ae2d00af288aa8ac27094414398660ee179bebfa5ece7503725b3580e7aeea8e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c35497e6446ea3cc498eea8eff4a30f248f0919defde45a925719dac1fe3cf31"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1f0bb9c69b7166b0a140eb802064b11ed01e6ddaea72c1522ce069ff309d6e84d359a276e8c5c8233388b657fa38563a149261b0d6d7242004e5530f6bfc2e54"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-core-api@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-core-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-core-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-core-api@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-metrics-core",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a3e65b83d95c1f74428923a182269349"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e53c12e7dcd00ff9edf55ea115e41c63e81657da"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "827ebaa432b98f69eb417c293dee59e0aa7427bd217f458b6fb2a99161d28dd8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "32d5c6af79e791c5685ac582d5eee4f47b0772d308bb6c6d68403d81acdc3565aa334379f007f65b7d04e85375569b2778674b2c89c6e49fb402185817d4bda5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8c61917487b472b69c597680268fa27c060dbb1b881d440bfd2aa9fe966ac2ec27b23a4e58479d57733af7e8947def16"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ccf42aec8cf53f1000137092a8b891219924149bc482ca18788a0deddf7f9b4b9cd2b0697deb6689d7d3edff91fa37ca"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "cefcd3aacdb121960a96111d79aeb1482e7e3ed612d34a3c768d3ddfdb4e6cef"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "cde6cad6fd33c2309b47d08e018fdc592184231c3edbb4d923dba2b386cdd592b6df5310241d561956af2d471c89b57f4f5fab9e14fb32d4a62b1ae1bc564cf5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-metrics-core@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-metrics/flink-metrics-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-metrics/flink-metrics-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-metrics-core@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-annotations",
+      "version" : "2.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "195fffa7840538d5f76e5d8c1ca52493"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e6feb36d13470ec8a7316699197a305ea78ee712"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4a2f85f5adc6fbbbb884836659a19afd32d40dfacd5f58793dd8388fd464b9b7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b9be7ac6340c80c5579070b3fc73d357b5fcfc3bf6bad92d98baa932754105cf10f612c6e567247821255bd9b57e08ea188b47e30c04ce77bfd674d994ddfaab"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2caecee3610e5c07e7de424b09ce779fa438fb903725644ae2e8fad49b72c45bacdf453349675b9b3c4a20c5559df124"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8efb0aa70dc1f22faa7287109d147251a499b5232798f0ee8e48d3586dd21addd6f89eebd7294b0334a340dca1f0c5e5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9d64692362d2f38fcefd667ce4f717e77656452625b5fd163bd7f9192a5d3a5c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "112b189860f6583d463d8db715267263464b37cfbb82420a033d1d82b040350a360b2ca21791ca146b38e4f0d4df4e42a3858fef9488609317814889d1a8e119"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-annotations@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://flink.apache.org/flink-annotations"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink/flink-annotations"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-annotations@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-shaded-asm-9",
+      "version" : "9.6-19.0",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5daaece634972b44bf938ba985a39b12"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0f241fed933bfce1983394a8f3047a7be0d7ea5c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "88dd78a114ebd8371faef106ecc0df697483c4824d591d0ab5de6230523fcbe6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b9a81a66060982de3d78ab907c484bac01892874312e28bc5e7bd35d28a4665410cdfa2aa1c22761b27eeade4a77485634c0cdd989836c27075950527fbf28c5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e418d5091c0ec6707c5b63ac0cf8dfe92798819dee6875fde6bf6f8f20488b9a5620b4ae311d631d7bad346113be8fed"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "773c9b058a4cbe56a5dce139b7820063b22acf8596a7f1abeed19a5c9f2d74e958c18b5de1733e7ecdb189ef8517af19"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4018dda18d4a7e6f0dafef4ed3efc8beed6ad86de8f5db2efe6790340b4de35d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2f5cf1620ac561e63bfc8ac0f26e7f7057031549d6de2acf3eb588d20a224e9ee7123a97bc899838c3853974e9f63659e3b763faa87ddc2b8cfa2562ab2a68fb"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-shaded-asm-9@9.6-19.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://flink.apache.org/flink-shaded-asm-9"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink-shaded/flink-shaded-asm-9"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-shaded-asm-9@9.6-19.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-lang3",
+      "version" : "3.12.0",
+      "description" : "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "19fe50567358922bdad277959ea69545"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "fbdbc0943cb3498b0148e86a39b773f97c8e6013740f72dbc727faeabea402073e2cc8c4d68198e5fc6b08a13b7700236292e99d4785f2c9989f2e5fac11fd81"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c34b8a0e0eba2168ad56fedeb7a1d710b6f1d3f1ce6aae99a4e0247bd120efbbadc8dcb2f731045b8a16e3efd30604dc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8ad6ebe7754bf0caa8cda7e59c0e95360d76e06a7ad6aeec5637985519dbd1dd06e7eed04711039f36ec4c49de280def"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "18ef639b2aeeb5aedffb18dbf20c79f33e300d99fb31b131689639cc470e6e4c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fbea96114dcf4f31cfaaa99987be756ddda3a6c74f8c835461997df794d54b92da1f60fe5c3f1f2a43cb8c5f5db7f4048bef77c70993673c7a93f3660fffc8da"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-lang/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LANG"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "group" : "org.snakeyaml",
+      "name" : "snakeyaml-engine",
+      "version" : "2.6",
+      "description" : "Core YAML 1.2 parser and emitter for Java",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "719bcfb9f917992d0a99a6f7106d8466"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "235a7e571b33eda1a81e0f73a3173ef95dd020e5"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2652199af40c9aa2f1782400d2dfbbf4e5226208c4e05ddd4059c3d6d9cd1505"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c3b5e87ce323b37bcd9e65d060157ebb26d116b5dac30c6eaa185b30aa24c0be8dfd0ad604a9a12ce7010acadee54a9cea9f065cd2f434eeaed7bccce2e14a7d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "edfc3c9a95cc2fa524a322f20ec034ec16b3fad950a58bfd1ed774eaaab946304cddc5e9ea4e117a899ec568ba7fa620"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "63b9e0ed448431a1d4b34a4b0b97b65c2c7be6ef46f1ce3b10191373e3339422f9c06bc846ae861a982c3c3618abd9c6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "19ce75167267903be79122e149ede2916c3e07bab0658db21ab40864e8c920cd"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7777f37097a6951dafe18fb038d087e7fe0924bfb2a10c66a76a57d95aa65341d4b674c6ff1d9d453c436ffcb50e281c2bedc854ce687fefc30c9595b7352c8a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.snakeyaml/snakeyaml-engine@2.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://bitbucket.org/snakeyaml/snakeyaml-engine"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://bitbucket.org/snakeyaml/snakeyaml-engine/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://bitbucket.org/snakeyaml/snakeyaml-engine/src"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.snakeyaml/snakeyaml-engine@2.6?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-text",
+      "version" : "1.10.0",
+      "description" : "Apache Commons Text is a library focused on algorithms working on strings.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4afc9bfa2d31dbf7330c98fcc954b892"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3363381aef8cef2dbc1023b3e3a9433b08b64e01"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "770cd903fa7b604d1f7ef7ba17f84108667294b2b478be8ed1af3bffb4ae0018"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "afd836a1094449e0a791fee67363666c47b6d24acff353a5089b837b332c0f4af89565c354682521e37062d20e6b52d70c77bb4f24cca9b9532c274fc708a831"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "06c56e6e513dd77cf10d0da46cdea08c34e220e81fa024735b668c6650df4234e564fe865ff5cafea963f56b1e8ffd4a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f09065ed066c25debf8c78cbb0bcc738e1ea283302ec992dcfb649acb90091cff879465c65a162e94534d454e3b4e9bb"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0b59c567164bb755f2353b78ba66744000a8c4b35e1df05255b080a21c3a3dd5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f0fbce02a862b70f472a27d0722c54ac111ca2eb94584b8b0b73d1926aec26047cd92542ad0b3cf980a6825077587f41b194aa93d6f6350d1b87e59e8df1be7c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-text"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/commons-parent/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/TEXT"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-text.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"
+    },
+    {
+      "group" : "com.esotericsoftware.kryo",
+      "name" : "kryo",
+      "version" : "2.24.0",
+      "description" : "Fast, efficient Java serialization",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6cf0fa5b5d4f6b8226fd4a4bfb7532b8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0c6b206e80cfd97e66a1364003724491c757b92f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7e56b32c635058f9aa2820f88919ab702d029cbcd15285da9992e36cc0ae52f2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a4c6ce768528a03c219cc6a41b22293f78e433c849c90391b64dda3f2376fd79951a89c5f4e6701bcbcb6eee9abffe2390cfb12dba3b885e4a3d411a26b78f40"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "678ad1b7f4d99910b8ff44a6c8f78ccae91f823161ce23de39077397352919b7257e1e6e0dea90900be973291ea19282"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "671fc6aa9905f8131482e1d0f3fe26126562b13777893d51a66d0f84fc6f2aa3f13947e488ffba8f09c31a2cc0e9758a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "46e89d8f12cbead0fe29ad707d5dba96e880dacce2a6b374ac4bf1ced9f36a79"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c7cde437eef8343eccd4c5ecb8de5683529e3d4d8262e8cd1f7b7d0df9c632253b979737fd1b486314ec2728aee3a3782dee5d2032621485db4aa3b2a8262741"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/EsotericSoftware/kryo"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/EsotericSoftware/kryo"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar"
+    },
+    {
+      "group" : "com.esotericsoftware.minlog",
+      "name" : "minlog",
+      "version" : "1.2",
+      "description" : "Minimal overhead Java logging",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f7cfbdf63b67df0bbfa4c7cb260885bc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "59bfcd171d82f9981a5e242b9e840191f650e209"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a678cb1aa8f5d03d901c992c75741841d98a9bc3d55dad02e84d65315c4e60f2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7b4082766ad740d86708783f3b08780ed72dd18062aa9ba422c4b9016b332d2334ae511f50ef7d89e4eedbdac5cebc51ab6ddaf4d1eea857a3250eb5962f0d08"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "932a282a9c06864001f8212199e4be05543609adbd985c5f4517ee6eba734acd3fd8812213bc0c98af264637cbf9c78d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f36e9f494611c85f59febfef9ce93fc68f1f17db881400456204c1f099e623e334d2f10b41018392877c8af13de7f59a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "37422ef85dce86abd8b14b4c9f7ad77261d728a472126c8eca38f356c98da395"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "74ba47271899706a284e942482ff41649ffd93e57a29320732e57864c47f3f0431377130ca7afb5e64cc6b68d4e5a5cdfc38027966cda4b5e512e3ce02bd8a99"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.esotericsoftware.minlog/minlog@1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/minlog/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://minlog.googlecode.com/svn/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.esotericsoftware.minlog/minlog@1.2?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-collections",
+      "name" : "commons-collections",
+      "version" : "3.2.2",
+      "description" : "Types that extend and augment the Java Collections Framework.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f54a8510f834a1a57166970bfc982e94"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "51c72f9aca7726f3c387095e66be85a6df97c74b00a25434b89188c1b8eab6e2b55accf7b9bd412430d22bd09324dec076e300b3d1fa39fccad471f0f2a3da16"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "dd4e99b3314bd3c1a1ee26296615d9e44dadf7a1f8a7bbba44fb95121803d331e36d4cca4260e7609af78a47ba3e4073"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8ce03528e4a6e95c44283b56eca87e6a6d3bf1363411a55b538f4f9110cf7470581ea5c73925e877ddab08dba0603f40"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fd3d6134b5f07077b82ccf93d148dacf7c4ce5c971209510edd0e77e3e38c19e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c2a523916fb7c7d55a05d5e3d9e9b33000733f4b20a71be174e4e093e3f06ea78ad831edd1505527da7388105f8647efb7d5666ba852c90b4e2d5bb74256efbc"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/collections/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/COLLECTIONS"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-compress",
+      "version" : "1.26.0",
+      "description" : "Apache Commons Compress defines an API for working with compression and archive formats. These include bzip2, gzip, pack200, LZMA, XZ, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4, Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cbc0bb8eca12b747ca21bf998d736e60"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "659feffdd12280201c8aacb8f7be94f9a883c824"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "051aceb8bbcc62d0f5b2b8ac72c53767f9c59bfbd050151e65bef6f51c8ed9c9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "acbeaa2909b809cd561e7156df18340d96abacb179325622d73bdd6b82cb9b387d6fcb1a44d8195aad4e786da299289e17598a1d337b7c7d1c0bc610cc128714"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "052d4d0cd1929c4299dd9d37dd36eaea6ed2be6b04d6d83a94f8608a6d1138aa81f7a34f25113ac267e7ba25ce948c9a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8b0bf441e8ce793fb6513bc07551cc48ab4507696c18e6037b0fcf35bc4e1eb3e44ed962e2d3765c86d4d912770aa53e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e441768e06092053f4703844ec0c8f2b437e06e7c190d48fec9d7682beb94c40"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5984f9f08f83789555677f6800f25fa8e80a9eb2e4d46b5fb117b8efc24753644fa103a2f6b619827661a41677991bc827965172ef25f1313d8a59154e615e8d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-compress/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/commons-parent/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/COMPRESS"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-compress.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-slf4j-impl",
+      "version" : "2.17.1",
+      "description" : "The Apache Log4j SLF4J API binding to Log4j 2 Core",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8d0e5934a9c341dbc3493d4039afd985"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "84692d456bcce689355d33d68167875e486954dd"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e9a03720e5d5076009c2530635da9d08485e28a0b0ec20708dadc51afb78e41e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3559e139a0c6d47fa0af233ac079fbde2227d701a846d6e6f7463129f7237e587bc3c337aebe5e4088f633ea83d1456dbc5b1999d1d485da67bfe2d5c12cde21"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ba0f5d2de2c0a7f816cb7ef98e9449e4a975ba5e34f1634e8eae6f84855df84ae6b2baf0c4762636fe5c337d6c561ef9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5aad3fca6b7600c428992b117e96e772c747927f71cbb4ba90ea8922266e64963584676d7a2ffcc9d293fbe8edf4dcd6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b077fe134c26804f8eafda8a0bb91703a54e499ec96859220cddfff8e561dd06"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b5b10d7d8f416c3fa70146ceab14513a002f723e83f3418f39e1b67bf394faeeed10262743f6c1cc5ea26c29162b1445283523c0133be2374c62a7066c4cd916"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.17.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-slf4j-impl/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci-builds.apache.org/job/Logging/job/log4j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LOG4J2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=logging-log4j2.git/log4j-slf4j-impl"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.17.1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-api",
+      "version" : "2.17.1",
+      "description" : "The Apache Log4j API",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "dfd5f2d81aba31583ee87fe16c7b78f8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d771af8e336e372fb5399c99edabe0919aeaf5b2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b0d8a4c8ab4fb8b1888d0095822703b0e6d4793c419550203da9e69196161de4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "48a58c2f317d451ac1622bdfbfa5d3cd9de45d40d5d5df98f39fe6d53c74da56e200f8e3d19a309d4e1ea364369379c0ef9d79b928fc20ea743857f347259c03"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3686abf7edebe4bd29bdae0495a6b881d38cfe7a870350d1f1b43056f51c25cd39a5fccb74a28abf62069862dd25e416"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "34ded426dd53323c7588f09cb17afc37798d090914608c4a8e88ff3cdcf872a6dccf042423a6bf2d92e9ab35252de92b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5b1dce647c9dfb24ced20d78c87c213d96d697ed17c1db97e538071c0c06702d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2e9070e21fd4b9b9aaa7794dea2da75144dd116fbc9f24935d57b32306c1901f815dbaa1fd9c76712990481ac399ccb51bb27e9ee3a3a27b42bcfbc2d68f371d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-api/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci-builds.apache.org/job/Logging/job/log4j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LOG4J2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=logging-log4j2.git/log4j-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-core",
+      "version" : "2.17.1",
+      "description" : "The Apache Log4j Implementation",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8d2f5c52700336dae846b2c3ecde7a6e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "779f60f3844dadc3ef597976fcb1e5127b1f343d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c967f223487980b9364e94a7c7f9a8a01fd3ee7c19bdbf0b0f9f8cb8511f3d41"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8d3d6a17afc41cde43b19c9a696793d009d9271bc6430762f10157018453f8a53cde6e6aa4f3f0b703eaf1f2944d047398d29b470924ecc3290d1923b0e29750"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "28500f2bb8fa430788eb526d8197671b9bcb49cc8a04fac22b12ae0c46bfefd682f1ce363cb237e41ae87185635e8ff3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5814742e87b0ba1308c883194b5cc16a57c2003aaac774e0c0b09d829231b9844dd16591af3711024cad90043ebecbf6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4cd95a3c8d119b4033f263c00ec414c7f3c8ccee68d013bdfae161d33872677f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c9b7e15624039cc442ab92e0eccf1ce2c2020f636d39d49da9a33fa95997db89c991c57f087bc1321980c319b894a07d631bd6d7c10c611a9cfb29ee5550003f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-core/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci-builds.apache.org/job/Logging/job/log4j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LOG4J2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=logging-log4j2.git/log4j-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.flink",
+      "name" : "flink-shaded-force-shading",
+      "version" : "19.0",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "edd575dca12a7a44b34f4b7cbda29da9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "753ccd73c890570a3d7294940f21acfb9ff05cf2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3c6bcacdced16621d6bb9a01b831f37def9df5a9384f2bd83c66bdff00c83d85"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a481c637b1efe8a840be44007c70ab2ce6442ee536d609834586610b8773662f56ee836db1d41b76a7a887b79be387e509673fab8e3bbcc7b57d5287f76f3e68"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d161afd4c461ce46669212164ae3218eb1b6c574ca5e6888bf77d9f77fde6f76a0b6a0c13d256ad9f5b742b30537518f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "196663f1098908b4bac1e34f072a596d46f4ac39983ca576a8645b17797e0d04604460708149469db4b4d409f40dbf11"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0323706c3cc0b99dd14bbbdb3f1dfee96eb295c078910e2b46d77fda8bbaae4f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a3c0a55becb8af1270aed054a6b0dbd870bf3cc2fe9bfa679e863f89ad64a54f75d5c6e023f34e692af1177a0fe3680acfac1603ad5e469e152ca83d3a38b585"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.flink/flink-shaded-force-shading@19.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://flink.apache.org/flink-shaded-force-shading"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/flink-shaded/flink-shaded-force-shading"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.flink/flink-shaded-force-shading@19.0?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "1.7.36",
+      "description" : "The slf4j API",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "872da51f5de7f3923da4de871d57fd85"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6c62681a2f655b49963a5983b8b0950a6120ae14"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f9b033fc019a44f98b16048da7e2b59edd4a6a527ba60e358f65ab88e0afae03a9340f1b3e8a543d49fa542290f499c5594259affa1ff3e6e7bf3b428d4c610b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2b14ad035877087157e379d3277dcdcd79e58d6bdb147c47d29e377d75ce53ad42cafbf22f5fb7827c7e946ff4876b9a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3bc3110dafb8d5be16a39f3b2671a466463cd99eb39610c0e4719a7bf2d928f2ea213c734887c6926a07c4cca7769e4b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ba2608179fcf46e2291a90b9cbb4aa30d718e481f59c350cc21c73b88d826881"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "14c4edcd19702ef607d78826839d8a6d3a39157df54b89a801d3d3cbbe1307131a77671b041c761122730fb1387888c5ec2e46bdd80e1cb07f8f144676441824"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+    },
+    {
+      "group" : "com.google.code.findbugs",
+      "name" : "jsr305",
+      "version" : "1.3.9",
+      "description" : "JSR305 Annotations for Findbugs",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1d5a772e400b04bb67a7ef4a0e0996d8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "905721a0eea90a81534abb7ee6ef4ea2e5e645fa1def0a5cd88402df1b46c9ed"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "06da282cfd8e30d9f8cf17702b8709172b00e22b75a627a1d85f8989615b8a1a401bc25d9aee7b14aed1d9b5df73bf2ea8d66f9c8468d9577c29f0ccfa2cc70a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "56e6b41ef62eb5edfed0203802cefae9c2df86388148e420bb0c687abb2b80e14d5c2a82d5b35dce4badaf148f94eada"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "58c3bf89fa1afa75c2c5078159fd28e27b2273d437f26aaaa7391310b6f0823f3cf476a24f5631c0881f3f7e946d99be"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c333ea5faedfa78e0614a2620438d5724eab093df4e960918391b6a44c2915b0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "67ec31448e156cc72dd036060b460bb2667a13b1cbe500b6b7eed3235b1994b44c39f440ebd07b21ec9595b166ad61121d4f6a132b5b313c558ab21b72599425"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://findbugs.sourceforge.net/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://findbugs.googlecode.com/svn/trunk/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+    },
+    {
+      "publisher" : "Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "group" : "org.objenesis",
+      "name" : "objenesis",
+      "version" : "2.1",
+      "description" : "A library for instantiating Java objects",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "32ccb1d20a42b5aaaceb90c9082a2efa"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "87c0ea803b69252868d09308b4618f766f135a96"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c74330cc6b806c804fd37e74487b4fe5d7c2750c5e15fbc6efa13bdee1bdef80"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1dec9ee30812b8006e536a2749c5781ccdc4b446539efb6fa534f22e70562033876bf2eb22c6946d617695729bd65f0f65b984f15f05ac63db5bed215e74427c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "657b8a3b80a5475f198425396f7264301f9e0f3ad5dc336ef0c7b46874f5544861a8a2fd48cdb5f672e199a6935c19d1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e526937d722aad1857869b2d2a0ba5c88815609308c00b776b51614e501de5d93d54978f5bb9cf496bdcc28b1dbd5775"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "436cfbb9c208dd03c951708fa4ba6525e2a0b26a873d594a6fbe93ab49082c97"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1e7ee9411df7cfbf0669c38e4ef029155dd718b91db1d182841c740caf8c1057ed273a77f8e32d724c48aaf96815a26ab099c776511ffc5ef351d70ebfa70344"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.objenesis/objenesis@2.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://objenesis.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/easymock/easymock/objenesis"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.objenesis/objenesis@2.1?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-examples-streaming@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-streaming-java@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-clients@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-connector-files@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-connector-kafka@3.0.0-1.17?type=jar",
+        "pkg:maven/org.apache.flink/flink-connector-datagen@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-jackson@2.15.3-19.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-statebackend-rocksdb@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.jcuda/jcuda@10.0.0?type=jar",
+        "pkg:maven/org.jcuda/jcublas@10.0.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.17.1?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.1?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-force-shading@19.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-streaming-java@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-file-sink-common@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-runtime@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-java@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-math3@3.6.1?type=jar",
+        "pkg:maven/org.apache.flink/flink-connector-datagen@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core-api@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-annotations@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-asm-9@9.6-19.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-jackson@2.15.3-19.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+        "pkg:maven/org.snakeyaml/snakeyaml-engine@2.6?type=jar",
+        "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+        "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar",
+        "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
+        "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-core-api@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-annotations@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-metrics-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-annotations@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-metrics-core@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-annotations@2.0-SNAPSHOT?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-shaded-asm-9@9.6-19.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-shaded-jackson@2.15.3-19.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.snakeyaml/snakeyaml-engine@2.6?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.esotericsoftware.minlog/minlog@1.2?type=jar",
+        "pkg:maven/org.objenesis/objenesis@2.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.esotericsoftware.minlog/minlog@1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.objenesis/objenesis@2.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/commons-io/commons-io@2.15.1?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-io/commons-io@2.15.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-file-sink-common@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-runtime@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-rpc-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-rpc-akka-loader@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-java@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-queryable-state-client-java@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-hadoop-fs@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/commons-io/commons-io@2.15.1?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-netty@4.1.100.Final-19.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-jackson@2.15.3-19.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-zookeeper-3@3.7.2-19.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+        "pkg:maven/commons-cli/commons-cli@1.5.0?type=jar",
+        "pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar",
+        "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.4?type=jar",
+        "pkg:maven/tools.profiler/async-profiler@2.9?type=jar",
+        "pkg:maven/org.lz4/lz4-java@1.8.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-rpc-core@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-rpc-akka-loader@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-rpc-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-java@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-math3@3.6.1?type=jar",
+        "pkg:maven/com.twitter/chill-java@0.7.6?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-math3@3.6.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.twitter/chill-java@0.7.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-queryable-state-client-java@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-shaded-netty@4.1.100.Final-19.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-shaded-netty@4.1.100.Final-19.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-hadoop-fs@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-shaded-zookeeper-3@3.7.2-19.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-cli/commons-cli@1.5.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.4?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/tools.profiler/async-profiler@2.9?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.lz4/lz4-java@1.8.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-connector-datagen@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-clients@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-runtime@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-optimizer@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-java@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/commons-cli/commons-cli@1.5.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-streaming-java@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-datastream@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-optimizer@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-runtime@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-java@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-jackson@2.15.3-19.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-datastream@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-datastream-api@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.flink/flink-streaming-java@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-datastream-api@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-core-api@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-connector-files@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-file-sink-common@2.0-SNAPSHOT?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-connector-kafka@3.0.0-1.17?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.flink/flink-connector-base@1.17.0?type=jar",
+        "pkg:maven/org.apache.kafka/kafka-clients@3.2.3?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-force-shading@19.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-connector-base@1.17.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kafka/kafka-clients@3.2.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?type=jar",
+        "pkg:maven/org.lz4/lz4-java@1.8.0?type=jar",
+        "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.4?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-shaded-force-shading@19.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.flink/flink-statebackend-rocksdb@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.ververica/frocksdbjni@6.20.3-ververica-2.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-shaded-guava@32.1.3-jre-19.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.ververica/frocksdbjni@6.20.3-ververica-2.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jcuda/jcuda@10.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jcuda/jcublas@10.0.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jcuda/jcuda@10.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.17.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1?type=jar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/gpu/MatrixVectorMul.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/join/WindowJoin.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/join/WindowJoinSampleData.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/wordcount/util/WordCountData.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/wordcount/util/CLI.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/wordcount/WordCount.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/dfa/Transition.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/dfa/EventTypeAndState.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/dfa/State.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/StateMachineExample.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/KafkaEventsGeneratorJob.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/generator/EventsGenerator.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/generator/StandaloneThreadedGenerator.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/generator/EventsGeneratorFunction.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/kafka/EventDeSerializationSchema.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/kafka/KafkaStandaloneGenerator.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/event/Event.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/event/Alert.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/event/EventType.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/async/AsyncIOExample.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/async/AsyncClient.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/utils/ThrottledIterator.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/iteration/util/IterateExampleData.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/iteration/IterateExample.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/GroupedProcessingTimeWindowExample.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/util/TopSpeedWindowingExampleData.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/util/CarGeneratorFunction.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/util/SessionWindowingData.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/WindowWordCount.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/TopSpeedWindowing.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/SessionWindowing.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/sideoutput/SideOutputExample.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/datagen/DataGeneratorPerCheckpoint.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/datagen/DataGenerator.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/socket/SocketWindowWordCount.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/test/java/org/apache/flink/streaming/test/StreamingExamplesITCase.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/test/java/org/apache/flink/streaming/test/examples/join/WindowJoinData.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/test/java/org/apache/flink/streaming/test/examples/windowing/TopSpeedWindowingExampleITCase.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/test/java/org/apache/flink/streaming/test/socket/SocketWindowWordCountITCase.java">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/main/resources/log4j2.properties">
+</file>
+<file name="/Users/rhill/local/src/asf/flink/flink-examples/flink-examples-streaming/src/test/resources/log4j2-test.properties">
+</file>
+</checkstyle>
